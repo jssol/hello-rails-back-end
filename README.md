@@ -17,6 +17,8 @@ A mobile web api that connects to a React front-end weba-app
 
 You can get a local copy up and running following these simple steps.
 
+## [Front-end repository link](https://github.com/jssol/hello-rails-front-end)
+
 ### Prerequisites
 
 - [x] A web browser like Google Chrome.
