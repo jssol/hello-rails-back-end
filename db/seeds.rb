@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'faker'
 
 10.times do
