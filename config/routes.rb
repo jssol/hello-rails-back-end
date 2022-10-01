@@ -4,6 +4,5 @@ Rails.application.routes.draw do
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
-  root "messages#show"
-  resources :messages, only: [:show]
+  root "messages#random_message"
 end

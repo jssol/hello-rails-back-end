@@ -1,7 +1,7 @@
 class MessagesController < ApplicationController
-  before_action :set_message, only: %i[ show ]
+  before_action :set_message, only: %i[ random_message ]
 
-  def show
+  def random_message
     render json: @message
   end
 
