@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# MessagesController class
 class MessagesController < ApplicationController
   before_action :set_message, only: %i[random_message]
 
